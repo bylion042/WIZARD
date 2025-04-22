@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: cursive;
+  font-family: 'Comic Sans MS', sans-serif;
     display: grid;
     place-items: center;
     width: 100%;
@@ -50,7 +50,7 @@ body {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    font-family: cursive;
+    font-family: 'Comic Sans MS', sans-serif;
     font-size: 1rem;
     transition: transform 0.2s ease;
     margin-bottom: 7rem;
