@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+/* ALL ABOUT THE TURNING IMAGE CONTENT  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: cursive;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle at center, #1a1a1a 0%, #000 100%);
+    color: #fff;
+    overflow: hidden;
+}
+
+
+  .hero {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+    color: var(--glow);
+    text-shadow: 0 0 20px var(--glow);
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #ccc;
+  }
+
+  .btn {
+    background: var(--accent);
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+    margin-bottom: 7rem;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--accent);
+  }
+ 
+  span{
+    display: none;
+    }
+  
+
+
+
+/* Responsive scaling */
+@media screen and (max-width: 1200px) {
+    .hero {
+        height: 60vh;
+      }
+    
+      .hero h1 {
+        font-size: 3rem;
+        color: var(--glow);
+        text-shadow: 0 0 20px var(--glow);
+      }
+
+
+      span{
+        display: block;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        }
+      
+}
